@@ -1,0 +1,78 @@
+/*
+Theme Name: Zerif Lite Child
+Theme URI: http://gai.co.in/
+Template: zerif-lite	
+Author: gaitechnologies private ltd 
+Author URI: http://gai.co.in/
+Description: Zerif Lite Child is a free one page WordPress theme. It's perfect for web agency business,corporate business,personal and parallax business portfolio, photography sites and freelancer.Is built on BootStrap with parallax support, is responsive, clean, modern, flat and minimal. Zerif Lite is ecommerce (WooCommerce) Compatible, WPML, RTL, Retina-Ready, SEO Friendly and with parallax, full screen image is one of the best business themes.
+Version: 1.1.0
+License: GNU General Public License version 1
+Text Domain: zerif-lite-child
+Tags: one-column, two-columns, right-sidebar,full-width-template,rtl-language-support,sticky-post,theme-options, custom-background, custom-menu, editor-style, featured-images, threaded-comments, translation-ready, footer-widgets, portfolio, e-commerce, blog
+*/
+
+@import url("../zerif-lite/style.css");
+
+/* Custom css */
+.feedback-box .quote, .testimonial .widget_zerif_testim-widget .quote {
+    float: left;
+    font-size: 45px;
+    line-height: 80px;
+    display: none;
+}
+p {
+    margin-bottom: 1.5em;
+    margin: 0px !important;;
+}
+.intro-text, .intro-text a {
+    float: none;
+    z-index: 0;
+    color: #fff;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#client-feedbacks .feedback-box, .testimonial .widget_zerif_testim-widget {
+    display: inline-block;
+    z-index: 5;
+    width: 59%;
+    margin: 13px;
+    padding: 25px;
+    border-radius: 4px;
+    background: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
+    text-align: left;
+    vertical-align: top;
+
+}
+.feedback-box .client-image, .testimonial .widget_zerif_testim-widget .client-image {
+    float: right;
+    overflow: hidden;
+    width: 603px;
+    height: 420px;
+    border: 3px solid #f6f6f6;
+}
+.feedback-box .client-info, .testimonial .widget_zerif_testim-widget .client-info {
+
+    float: left;
+    margin-left: 18px;
+    padding-top: 15px;
+    margin: -27px 19px 26px 0px;
+}
+.feedback-box .client-image, .testimonial .widget_zerif_testim-widget .client-image {
+    float: right;
+    overflow: hidden;
+    width: 603px;
+    height: 420px;
+    border: 3px solid #f6f6f6;
+}
+.feedback-box .client-image, .testimonial .widget_zerif_testim-widget .client-image {
+    float: right;
+    overflow: hidden;
+    width: 603px;
+    height: 450px;
+    border: 3px solid #f6f6f6;
+    border-radius: 0 !important;
+}
